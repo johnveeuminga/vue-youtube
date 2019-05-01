@@ -127,7 +127,7 @@ export default {
   },
   mounted () {
     window.YTConfig = {
-      host: 'https://www.youtube.com'
+      host: '//www.youtube.com'
     }
 
     this.player = player(this.$el, {
